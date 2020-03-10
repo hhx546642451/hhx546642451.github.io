@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://ubz.me</id>
     <title>UBZ</title>
-    <updated>2020-03-10T11:07:00.668Z</updated>
+    <updated>2020-03-10T11:18:12.408Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://ubz.me"/>
     <link rel="self" href="http://ubz.me/atom.xml"/>
@@ -16,7 +16,8 @@
         <link href="http://ubz.me/CCgr-gPA1/">
         </link>
         <updated>2020-03-10T10:44:00.000Z</updated>
-        <content type="html"><![CDATA[<p>如题</p>
+        <content type="html"><![CDATA[<p>托管在Github，之前以为静态博客很难搞，经历过无数次失败之后，通过b站的视频，成功在Github上配置。</p>
+<p>大致就这样写着吧，原先采用的是Typecho，也用腻了，换一种口味，换一种风格，来一个新的体验！</p>
 ]]></content>
     </entry>
     <entry>
