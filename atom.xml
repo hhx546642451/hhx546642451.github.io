@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://ubz.me</id>
     <title>UBZ</title>
-    <updated>2020-03-10T11:02:26.047Z</updated>
+    <updated>2020-03-10T11:03:42.319Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://ubz.me"/>
     <link rel="self" href="http://ubz.me/atom.xml"/>
@@ -12,8 +12,8 @@
     <rights>All rights reserved 2020, UBZ</rights>
     <entry>
         <title type="html"><![CDATA[第一次尝试静态博客]]></title>
-        <id>http://ubz.me/post/CCgr-gPA1/</id>
-        <link href="http://ubz.me/post/CCgr-gPA1/">
+        <id>http://ubz.me/CCgr-gPA1/</id>
+        <link href="http://ubz.me/CCgr-gPA1/">
         </link>
         <updated>2020-03-10T10:44:00.000Z</updated>
         <content type="html"><![CDATA[<p>如题</p>
@@ -21,8 +21,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>http://ubz.me/post/hello-gridea/</id>
-        <link href="http://ubz.me/post/hello-gridea/">
+        <id>http://ubz.me/hello-gridea/</id>
+        <link href="http://ubz.me/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>

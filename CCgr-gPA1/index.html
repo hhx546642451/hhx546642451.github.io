@@ -3,7 +3,7 @@
         <head>
         <meta name="viewport" content="width=device-width,minimum-scale=1,maximum-scale=1,initial-scale=1,user-scalable=no" />
         <meta charset="utf-8">
-        <title>UBZ</title>
+        <title>第一次尝试静态博客 | UBZ</title>
         <link rel="stylesheet" href="http://ubz.me/styles/main.css">
         <link rel="stylesheet" href="https://at.alicdn.com/t/font_1306644_jwtuc2zzbrd.css">
         <link href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" rel="stylesheet">
@@ -14,7 +14,7 @@
 
     </head>
     <body>
-          <header class="header mdui-m-b-5">      
+              <header class="header mdui-m-b-5">      
             <div class="container  ">
                 <div class="index-title animated fadeInDown mdui-text-center mdui-text-color-white mdui-m-b-2" style="animation-delay: 0.2s"><a href="http://ubz.me">UBZ</a></div>
                 <div class="mdui-text-color-white animated fadeInDown mdui-text-center  mdui-m-b-3" style="animation-delay: 0.4s">寻找与记录</div>
@@ -54,41 +54,63 @@
         </header>
         <div class="mdui-container ">
                 <div class="mdui-row">
-                        <div class="mdui-col-md-8 mdui-col-offset-md-2 mdui-m-t-1">
-                         
-                                                         
-                               <article class="mdui-p-a-5 index-list mdui-m-b-3 animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
-                                    <div class="mdui-typo-body-2 mdui-m-b-1" datetime="2020-03-10 18:44:00">2020-03-10</div>
-                                    <div class="mdui-typo-headline mdui-m-b-3 index-list-title index-guo"><a href="http://ubz.me/CCgr-gPA1/">第一次尝试静态博客</a></div>
-                                    <div class="mdui-typo-subheading mdui-m-b-2 index-neirong"><p>如题
-</p></div>
-                                    <div class="index-list-rm index-guo"><a href="http://ubz.me/CCgr-gPA1/">Read More</a></div>
+                        <div class="mdui-col-md-8 mdui-col-offset-md-2 ">
+                                <article class="mdui-p-a-2 post animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
+                                    <div class="post-title  mdui-m-b-1">第一次尝试静态博客</div>
+                                    <div class="mdui-typo-body-2 mdui-m-b-2" datetime="2020-03-10 18:44:00">2020-03-10 / 1 min read</div>
+                                    <div class="mdui-m-b-2 mdui-typo post-neirong"><p>如题</p>
+</div>
+                                    <div class="mdui-divider mdui-m-b-2"></div>
+                                    <div class="mdui-row-xs-2 post-fenye">
+                                       
+                                        <div class="mdui-col"> </div>
+                                        
+
+                                        
+                                        <div class="mdui-col"><div class="mdui-text-right "><a href="http://ubz.me/hello-gridea/">Hello Gridea</a></div> </div>
+                                       
+                                      </div>
+                                   
+                                    <div class="mdui-divider mdui-m-t-2 mdui-m-b-2"></div>
+                                    
+                                     <script src="http://ubz.me/media/scripts/Valine.min.js"></script>
+ <div class="comment"></div>
+
+<script>
+      new Valine({
+            el: '.comment',
+
+            app_id: 'T0O8hd9WtchKIeJdKHqzjemA-gzGzoHsz',
+
+
+            app_key: 'k8MdsFSc3V31XKJclsnO8bFC',
+
+
+            path: window.location.pathname,
+            pageSize: 30,
+            avatar:'mm', 
+       })
+    </script> 
+<script>
+    if(window.location.hash){
+        var checkExist = setInterval(function() {
+           if ($(window.location.hash).length) {
+              $('html, body').animate({scrollTop: $(window.location.hash).offset().top-90}, 1000);
+              clearInterval(checkExist);
+           }
+        }, 100);
+    }
+</script>
                                 </article>
-                                
-                               <article class="mdui-p-a-5 index-list mdui-m-b-3 animated fadeIn" style="animation-delay: 0.8s;animation-duration: 2s">
-                                    <div class="mdui-typo-body-2 mdui-m-b-1" datetime="2018-12-12 00:00:00">2018-12-12</div>
-                                    <div class="mdui-typo-headline mdui-m-b-3 index-list-title index-guo"><a href="http://ubz.me/hello-gridea/">Hello Gridea</a></div>
-                                    <div class="mdui-typo-subheading mdui-m-b-2 index-neirong"><p>👏  欢迎使用 Gridea ！
-✍️  Gridea 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...
 
-Github
-Gridea 主页
-示例网站
-特性👇
-📝  你可以使用最酷的 Markdo...</p></div>
-                                    <div class="index-list-rm index-guo"><a href="http://ubz.me/hello-gridea/">Read More</a></div>
-                                </article>
-                                
-
-                                                            <nav class="mdui-m-t-5">
-                                
-                                
-                                </nav>     
-
+                                    
                         </div>
                       </div>
+    
+                
+
               </div>
-                <footer class="footer mdui-m-t-5 mdui-text-center">
+                    <footer class="footer mdui-m-t-5 mdui-text-center">
                <nav class="social-links">
                       <ul>
                       
