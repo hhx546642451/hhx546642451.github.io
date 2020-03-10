@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://ubz.me</id>
-    <title>UZB</title>
-    <updated>2020-03-10T10:44:28.270Z</updated>
+    <title>UBZ</title>
+    <updated>2020-03-10T10:52:40.371Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://ubz.me"/>
     <link rel="self" href="http://ubz.me/atom.xml"/>
     <subtitle>寻找与记录</subtitle>
     <logo>http://ubz.me/images/avatar.png</logo>
     <icon>http://ubz.me/favicon.ico</icon>
-    <rights>All rights reserved 2020, UZB</rights>
+    <rights>All rights reserved 2020, UBZ</rights>
     <entry>
         <title type="html"><![CDATA[第一次尝试静态博客]]></title>
         <id>http://ubz.me/post/CCgr-gPA1/</id>
