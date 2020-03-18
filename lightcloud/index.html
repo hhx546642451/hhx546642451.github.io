@@ -1,109 +1,103 @@
-
 <!DOCTYPE html>
 <html>
   <head>
-    
-<meta charset="utf-8" >
+    <meta charset="utf-8" >
 
 <title>Light cloud (轻云) 机场分享推荐 | UBZ</title>
-<meta name="description" content="寻找与记录">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="http://ubz.me/favicon.ico?v=1584534722463">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="shortcut icon" href="http://ubz.me/favicon.ico?v=1584534753257">
 <link rel="stylesheet" href="http://ubz.me/styles/main.css">
 
 
 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
 
 
 
+    <meta name="description" content="机场介绍：
+Light cloud(后续都直接以轻云代替)，官网：https://www.qy2q.com/，邀请码：Waja（注册账号邀请码是必填项）。注册送2元余额，买年卡可用8折优惠码(qy8)。
+套餐等级：白银、黄金、大师
+大师线路..." />
+    <meta name="keywords" content="机场推荐,曲线救国" />
   </head>
   <body>
     <div id="app" class="main">
-      <div class="site-header-container">
-  <div class="site-header">
-    <div class="left">
-      <a href="http://ubz.me">
-        <img class="avatar" src="http://ubz.me/images/avatar.png?v=1584534722463" alt="" width="32px" height="32px">
-      </a>
-      <a href="http://ubz.me">
+
+      <div class="sidebar" :class="{ 'full-height': menuVisible }">
+  <div class="top-container" data-aos="fade-right">
+    <div class="top-header-container">
+      <a class="site-title-container" href="http://ubz.me">
+        <img src="http://ubz.me/images/avatar.png?v=1584534753257" class="site-logo">
         <h1 class="site-title">UBZ</h1>
       </a>
+      <div class="menu-btn" @click="menuVisible = !menuVisible">
+        <div class="line"></div>
+      </div>
     </div>
-    <div class="right">
-      <transition name="fade">
-        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
-      </transition>
-    </div>
-  </div>
-</div>
-
-<transition name="fade">
-  <div class="menu-container" style="display: none;" v-show="menuVisible">
-    <div class="menu-list">
+    <div>
       
         
-          <a href="/" class="menu purple-link">
+          <a href="/" class="site-nav">
             首页
           </a>
         
       
         
-          <a href="/archives" class="menu purple-link">
+          <a href="/archives" class="site-nav">
             归档
           </a>
         
       
         
-          <a href="/tags" class="menu purple-link">
+          <a href="/tags" class="site-nav">
             标签
           </a>
         
       
         
-          <a href="/about" class="menu purple-link">
+          <a href="/about" class="site-nav">
             关于
           </a>
         
       
     </div>
   </div>
-</transition>
+  <div class="bottom-container" data-aos="flip-up" data-aos-offset="0">
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+    <div class="site-description">
+      寻找与记录
+    </div>
+    <div class="site-footer">
+      Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://ubz.me/atom.xml" target="_blank">RSS</a>
+    </div>
+  </div>
+</div>
 
 
-      <div class="content-container">
-        <div class="post-detail">
-          
-          <h2 class="post-title">Light cloud (轻云) 机场分享推荐</h2>
-          <div class="post-info post-detail-info">
-            <span><i class="icon-calendar-outline"></i> 2020-03-16</span>
+      <div class="main-container">
+        <div class="content-container" data-aos="fade-up">
+          <div class="post-detail">
+            <h2 class="post-title">Light cloud (轻云) 机场分享推荐</h2>
+            <div class="post-date">2020-03-16</div>
             
-              <span>
-                <i class="icon-pricetags-outline"></i>
-                
-                  <a href="http://ubz.me/ElNBrZLHy/">
-                    机场推荐
-                    
-                      ，
-                    
-                  </a>
-                
-                  <a href="http://ubz.me/wcvfVAtC7X/">
-                    曲线救国
-                    
-                  </a>
-                
-              </span>
-            
-          </div>
-          <div class="post-content">
-            <h1 id="机场介绍">机场介绍：</h1>
+            <div class="post-content" v-pre>
+              <h1 id="机场介绍">机场介绍：</h1>
 <p>Light cloud(后续都直接以轻云代替)，官网：<a href="https://tkqecbdn50aophv6.qy2c.buzz/auth/register?code=Waja">https://www.qy2q.com/</a>，邀请码：<strong>Waja</strong>（注册账号邀请码是必填项）。注册送2元余额，买年卡可用8折优惠码(qy8)。</p>
 <p>套餐等级：<strong>白银、黄金、大师</strong></p>
 <p>大师线路全部支持奈飞TVB等主流媒体观看. 大师套餐提供海外回国专线和国内出国专线。</p>
@@ -118,45 +112,43 @@
 <p>注册地址：<a href="https://tkqecbdn50aophv6.qy2c.buzz/auth/register?code=Waja">https://www.qy2q.com/</a></p>
 <p>邀请码：<strong>Waja</strong></p>
 
+            </div>
+            
+              <div class="tag-container">
+                
+                  <a href="http://ubz.me/ElNBrZLHy/" class="tag">
+                    机场推荐
+                  </a>
+                
+                  <a href="http://ubz.me/wcvfVAtC7X/" class="tag">
+                    曲线救国
+                  </a>
+                
+              </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="http://ubz.me/1/">
+                  <h3 class="post-title">
+                    第一次尝试静态博客
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+
           </div>
+
         </div>
-
-        
-          <div class="next-post">
-            <a class="purple-link" href="http://ubz.me/1/">
-              <h3 class="post-title">
-                下一篇：第一次尝试静态博客
-              </h3>
-            </a>
-          </div>
-          
       </div>
-
-      
-
-      <div class="site-footer">
-  <div class="slogan">寻找与记录</div>
-  <div class="social-container">
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-  </div>
-  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://ubz.me/atom.xml" target="_blank">RSS</a>
-</div>
-
-
     </div>
-    <script type="application/javascript">
 
-hljs.initHighlightingOnLoad()
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script type="application/javascript">
+
+AOS.init();
 
 var app = new Vue({
   el: '#app',
@@ -166,6 +158,7 @@ var app = new Vue({
 })
 
 </script>
+
 
 
 
